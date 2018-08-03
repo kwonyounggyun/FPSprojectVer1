@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\ProjectFPS.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{74575F9A-1466-4E56-8FDE-995CD3717521}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\ProjectFPS.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\ProjectFPSEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{65EC4F42-0E3F-411F-A23B-91936C33E286}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\ProjectFPS">
+			<UniqueIdentifier>{6C13F46F-41AB-40E0-9A79-53223ACBDA1F}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\ProjectFPS\FPS_Character.cpp">
+			<Filter>Source\ProjectFPS</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ProjectFPS\FPS_Character.h">
+			<Filter>Source\ProjectFPS</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\ProjectFPS\ProjectFPS.Build.cs">
+			<Filter>Source\ProjectFPS</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\ProjectFPS\ProjectFPS.cpp">
+			<Filter>Source\ProjectFPS</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ProjectFPS\ProjectFPS.h">
+			<Filter>Source\ProjectFPS</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ProjectFPS\ProjectFPSGameModeBase.cpp">
+			<Filter>Source\ProjectFPS</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ProjectFPS\ProjectFPSGameModeBase.h">
+			<Filter>Source\ProjectFPS</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
